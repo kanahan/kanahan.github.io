@@ -1,0 +1,36 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background: linear-gradient(124deg, #aa4b6b, #6b6b83, #3b8d99);
+  background-size: 1800% 1800%;
+  
+  -webkit-animation: rainbow 25s ease infinite;
+  -z-animation: rainbow 25s ease infinite;
+  -o-animation: rainbow 25s ease infinite;
+    animation: rainbow 25s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}

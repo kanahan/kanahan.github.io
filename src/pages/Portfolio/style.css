@@ -1,0 +1,63 @@
+.portfolio-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.portfolio-page .portfolio-wrapper {
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.portfolio-page .portfolio-wrapper > .portfolio-item {
+  margin: 1rem;
+  text-align: center;
+  z-index: 1;
+  width: 15rem;
+  height: 17rem;
+  background-color: #ababab85;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 3px;
+}
+
+.portfolio-page .portfolio-wrapper > .portfolio-item > .portfolio-item_title {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.portfolio-page .portfolio-wrapper > .portfolio-item > .portfolio-item_desc {
+  padding: 0.5rem;
+}
+
+.portfolio-page .portfolio-wrapper > .portfolio-item > .portfolio-item_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.portfolio-page .portfolio-wrapper > .portfolio-item > .portfolio-item_links > a {
+  color: #FFFFFF;
+  text-decoration: none;
+  padding-bottom: .25rem;
+  border-bottom: 2px solid rgb(255,255,255,0);
+}
+
+.portfolio-page .portfolio-wrapper > .portfolio-item > .portfolio-item_links > a:hover {
+  border-bottom: 2px solid #FFFFFF;
+}
+
+
+@media screen and (max-width: 991px) {
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 575px) {
+}
